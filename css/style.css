@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+[class*="col-"]{
+    background-color: rgba(128, 0, 60, 0.384);
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid black;
+}
+/* .container{
+    border: 1px solid black;
+    z-index: 2;
+} */
