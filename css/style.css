@@ -7,9 +7,31 @@
     background-color: rgba(128, 0, 60, 0.384);
     text-align: center;
     line-height: 200px;
+    vertical-align: middle;
     border: 2px solid black;
 }
-/* .container{
+[class*="col-"]{
+    height: 200px;
+    position: relative;
+}
+
+.container .row:last-child > [class*="col-"]{
+    /* padding: 8px 16px; */
+    height: auto;
+}
+
+[class*="col-"] [class*="col-"] {
+    background-color: aqua;
+    border-color: white;
+    padding: 8px 16px;
+    /* position: relative;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px; */
+}
+
+.container{
     border: 1px solid black;
-    z-index: 2;
-} */
+    /* z-index: 2; */
+}
