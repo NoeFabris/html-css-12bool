@@ -13,28 +13,13 @@
 [class*="col-"]{
     height: 200px;
     position: relative;
+    padding: 5px;
 }
 
-.container .row:last-child > [class*="col-"]{
-    /* padding: 8px 16px; */
-    /* height: auto; */
-    /* width: auto; */
-}
-.nested{
-    /* margin: -10px; */
-}
 [class*="col-"] .row [class*="col-"] {
     background-color: aqua;
     border-color: white;
-    height: 180px;
-    /* width: auto; */
-    /* margin: 10px 10px; */
-    /* padding: 8px 16px; */
-    /* position: relative;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px; */
+    height: 186px;
 }
 [class*="col-"] p{
     position: relative;
